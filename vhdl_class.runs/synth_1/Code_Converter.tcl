@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s25csga324-1
 
@@ -100,7 +98,7 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 }
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/Users/marco/vivado/vhdl_class/vhdl_class.srcs/utils_1/imports/synth_1/FullAdder.dcp
+read_checkpoint -auto_incremental -incremental D:/Users/marco/vivado/vhdl_class/vhdl_class.srcs/utils_1/imports/synth_1/Code_Converter.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

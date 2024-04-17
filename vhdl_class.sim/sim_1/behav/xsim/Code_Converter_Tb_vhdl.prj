@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../vhdl_class.srcs/sources_1/new/Array_Mult.vhd" \
+"../../../../vhdl_class.srcs/sim_1/new/mult_test.vhd" \
+
+# Do not sort compile order
+nosort

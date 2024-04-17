@@ -1,3 +1,6 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/marco/vivado/vhdl_class/vhdl_class.srcs/sources_1/new/CLA4.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'CLA4'
-INFO: [VRFC 10-3107] analyzing entity 'CLALogic'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/marco/vivado/vhdl_class/vhdl_class.srcs/sources_1/new/Array_Mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Array_Mult'
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-3107] analyzing entity 'HalfAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/marco/vivado/vhdl_class/vhdl_class.srcs/sim_1/new/mult_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_test'
